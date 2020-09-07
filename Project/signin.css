@@ -1,0 +1,140 @@
+.container {
+    position: relative;
+    height: 600px;
+  }
+  
+  body {
+    background-image: url("walmart-bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .logo {
+    color: #0000ff;
+    height: 60px;
+    line-height: 60px;
+    white-space: nowrap;
+    margin-left: 30px;
+    font-size: 20px;
+  }
+  
+  .account {
+    text-decoration: none;
+    color: #0000ff;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .main_content {
+    text-align: center;
+  }
+  
+  label {
+    float: none;
+    width: 100px;
+  }
+  
+  input {
+    width: 200px;
+    margin: 5px;
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  input:focus {
+    background-color: #90ee90;
+  }
+  
+  img {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .sigin_form {
+    width: 200px;
+    height: 160px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+  
+  .form-wrapper {
+    display: block;
+    text-align: center;
+  }
+  
+  #submit {
+    background-color: #87ceeb;
+    border-radius: 8px;
+    padding: 5px 15px;
+    margin-left: 30px;
+    width: 150px;
+  }
+  
+  .footer-component {
+    position: fixed;
+    background-color: #add8e6;
+    height: 60px;
+    width: 100%;
+    border-top: solid;
+    left: 0;
+    text-align: center;
+    bottom: 0;
+  }
+  
+  .header-component {
+    position: fixed;
+    background-color: #add8e6;
+    border-bottom: solid;
+    height: 75px;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    left: 0;
+  }
+  
+  .info {
+    color: #87ceeb;
+    padding: 10px;
+    margin-top: 50px;
+  }
+  
+  .copyright {
+    color: #ffffff;
+    height: 60px;
+    line-height: 60px;
+  }
+  
+  footer>div::before {
+    content: "@";
+  }
+  
+  @media screen and (max-width: 760px) {
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  
+    label {
+      float: none;
+      width: 100px;
+    }
+  
+    input {
+      width: 150px;
+      margin-left: 30px;
+    }
+  
+    #submit {
+      margin-left: 30px;
+    }
+  }
+  
