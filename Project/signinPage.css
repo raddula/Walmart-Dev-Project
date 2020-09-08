@@ -21,8 +21,8 @@
   .account {
     text-decoration: none;
     color: #0000ff;
-    font-size: 20px;
     position: absolute;
+    font-size: 20px;
     right: 0;
     margin-right: 30px;
     top: 50%;
@@ -53,7 +53,6 @@
     width: 150px;
     height: 150px;
     margin-top: 20px;
-    margin-bottom: 20px;
   }
   
   .sigin_form {
@@ -104,7 +103,7 @@
   .info {
     color: #87ceeb;
     padding: 10px;
-    margin-top: 50px;
+    margin-top: 80px;
   }
   
   .copyright {

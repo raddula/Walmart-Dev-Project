@@ -18,29 +18,11 @@
     width: 40%;
     height: 40px;
   }
-  
-  a {
-    text-decoration: none;
-    color: #0000ff;
-    font-size: 20px;
-  }
 
-  .main_content {
-    margin-top: 70px;
-  }
-  
   #items {
     display: grid;
     grid-template-columns: 200px 200px 200px 200px;
     justify-content: space-around;
-  }
-  
-  #user {
-    color: #0000ff;
-    text-transform: uppercase;
-    font-family: "Times New Roman", Times, serif;
-    font-weight: bold;
-    
   }
 
   img {
@@ -50,12 +32,7 @@
     height: 150px;
     margin-top: 25px;
   }
-  
-  .addToCart {
-    margin-left: 40px;
-    height: 18px;
-  }
-  
+
   .pagination {
     text-align: center;
     margin: 20px;

@@ -7,17 +7,17 @@ function updateUser() {
     document.getElementById('user').innerText = "Hi " + userName;
 }
 function listOfItems() {
-    var products = ["products/item1.jpeg" , "products/item2.jpeg" , "products/item3.jpeg", "products/item4.jpeg" , "products/item5.jpeg", "products/item6.jpeg", "products/item7.jpeg", "products/item8.jpeg" , "products/item9.jpeg", "products/item10.jpeg" , "products/item11.jpeg", "products/item12.jpeg", "products/item13.jpeg"]
+    var products = ["item1.jpeg" , "item2.jpeg" , "item3.jpeg", "item4.jpeg" , "item5.jpeg", "item6.jpeg", "item7.jpeg", "item8.jpeg" , "item9.jpeg", "item10.jpeg" , "item11.jpeg", "item12.jpeg", "item13.jpeg"]
     var ul = document.getElementById("items");
     products.map(function(item) {
         var li = document.createElement("li");
         var img = document.createElement("img");
         img.setAttribute("src", item); 
-        var res = item.split('/');
-        img.setAttribute("alt", res[1]); 
+        img.setAttribute("alt", item); 
         li.appendChild(img);
         ul.appendChild(li);
     });
+
 }
 
 onclick = function(event) {
